@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> PDS Alpha 0.1.0</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js">
+            var scriptsize = "80"; //DO NOT PASS THIS LINE OF CODE IN SCRIPT
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1> PDS Alpha 0.1.0</h1>
+            <p> Note: This is a BETA, not the entire thing!</p>
+            <br>
+            <br>
+            <br>
+            <p> You have 4 suggestion chances. Use wisely.</p>
+            <span>1</span>
+            <input type="text" placeholder="Type a suggestion here" id="suggestionBox1">
+            <br>
+            <span>2</span>
+            <input type="text" placeholder="Type a suggestion here" id="suggestionBox2">
+            <br>                                                                                                                                                                                                                                                               
+            <span>3</span>
+            <input type="text" placeholder="Type a suggestion here" id="suggestionBox3">
+            <br>
+            <span>4</span>
+            <input type="text" placeholder="Type a suggestion here" id="suggestionBox4">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button class="btn btn-success" id="suggestbtn" onclick="addSuggestion()"> Enter my suggestion</button>
+            <button class="btn btn-success" id="sortbtn" onclick="sortSuggestion()"> Sort suggestions</button>
+            <button class="btn btn-success" id="publishbtn" onclick="joinSuggestion()"> Publish!</button>
+            <br>
+            <br>
+            <div id="list" style="font-weight: 900;"></div>
+            <br>
+            <br>
+            <div id="cload_info" style="font-weight: 900;"></div>
+        </center>
+    </body>
+</html>
